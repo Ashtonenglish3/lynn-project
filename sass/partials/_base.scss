@@ -2,10 +2,16 @@ body, html{
     margin: 0;
     scroll-behavior: smooth;
     height: 100%;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 nav{
     display: inline-flex;
+}
+nav img{
+    float: right;
+    height: 15vh;
+    padding: 49px;
 }
 nav ul{
     display: inline-flex;
@@ -19,10 +25,11 @@ nav ul{
     li a{
         font-size: 27px;
         display: block;
-        margin-left: 9vh;
+        text-shadow: 2px 2px black;
+        margin-left: 17vh;
         color: white;
         text-align: center;
-        padding: 22px 12px;
+        padding: 97px 12px;
         text-decoration: none;
     }
     li a:hover{
@@ -41,4 +48,11 @@ nav ul{
     background-size: cover;
     position: relative;
     background-attachment: fixed;
+}
+
+.header-text{
+    text-align: center;
+    margin-top: 14%;
+    font-size: 6vh;
+    color: white;
 }
