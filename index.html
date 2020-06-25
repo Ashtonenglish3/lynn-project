@@ -10,7 +10,17 @@
 <body>
     <div class="header">
         <div class="hero-image">
-        <nav>
+        
+            <div class="nav" id="nav">
+                <img src="img/logo.png" alt="">
+                <a href="">Home</a>
+                <a href="">GALLERY</a>
+                <a href="">CONTACT</a>
+
+            </div>
+
+
+        <!-- <nav>
             <img src="img/logo.png" alt="">
             <ul>
                 <li><a class="active" href="#Home">Home</a></li>
@@ -18,11 +28,27 @@
                 <li> <a href="#Gig">Gigs</a> </li>
                 <li><a href="#Gallery">Gallery</a></li>
             </ul>
-        </nav>
+        </nav> -->
         <div class="header-text">
             <h1>Lorem ipsum dolor, sit</h1>
         </div>
     </div>
       </div>
+      <div class="container1">
+          
+      </div>
+      <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+          if (prevScrollpos > currentScrollPos) {
+            document.getElementById("nav").style.top = "0";
+          } else {
+            document.getElementById("nav").style.top = "-190px";
+          }
+          prevScrollpos = currentScrollPos;
+        }
+        </script>
+        
 </body>
 </html>

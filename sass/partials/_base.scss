@@ -2,41 +2,78 @@ body, html{
     margin: 0;
     scroll-behavior: smooth;
     height: 100%;
-    font-family: 'Fjalla One', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
 }
+.nav{
+    background-color: white;
+    top: 0;
+    width: 100%;
+    position: sticky;
+    height: 18%;
 
-nav{
-    display: inline-flex;
-}
-nav img{
-    float: right;
-    height: 15vh;
-    padding: 49px;
-}
-nav ul{
-    display: inline-flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-
-    li{
-        float: left;
-    };
-    li a{
-        font-size: 27px;
-        display: block;
-        text-shadow: 2px 2px black;
-        margin-left: 17vh;
-        color: white;
-        text-align: center;
-        padding: 97px 12px;
-        text-decoration: none;
-    }
-    li a:hover{
-        color: black;
-        text-decoration: none;
+    display: block;
+    transition: top 0.5s;
+    img{
+        width: 14vh;
+    padding: 21px;
     }
 }
+
+.nav a{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: inline-flex;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    margin-left: 14%;
+    border: 4px #1D65A2 solid;
+    background-color: white;
+    text-decoration: none;
+    font-size: 27px;
+    letter-spacing: -1px;
+}
+// nav{
+//     background-color: white;
+//     // display: inline-flex;
+//     position: fixed;
+//     display: block;
+//     width: 100%;
+// }
+// nav img{
+//     float: right;
+//     height: 9vh;
+//     padding: 49px;
+// }
+// nav ul{
+//     display: inline-flex;
+//     list-style-type: none;
+//     margin: 0;
+//     padding: 0;
+
+//     li{
+//         float: left;
+//     };
+//     li a{
+//         font-size: 25px;
+//     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+//     display: block;
+//     /* left: 24px; */
+//     /* margin: 80px; */
+//     /* margin-top: -13%; */
+//     /* margin-bottom: -87px; */
+//     margin-left: 21vh;
+//     color: #365981;
+//     text-align: center;
+//     padding-top: 50%;
+//     padding: -9px 0px;
+//     text-decoration: none;
+//     }
+//     li a:hover{
+//         color: black;
+//         text-decoration: none;
+//     }
+// }
 .header{
     height: 100%;
 }
@@ -55,4 +92,9 @@ nav ul{
     margin-top: 14%;
     font-size: 6vh;
     color: white;
+}
+
+.container1{
+    background-color: blanchedalmond;
+    height:100%;
 }
