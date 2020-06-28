@@ -29,17 +29,20 @@ body, html {
   font-size: 27px;
   letter-spacing: 1px; }
 
+.nav a:hover {
+  background-color: #1D65A2;
+  color: white; }
+
 .header {
   height: 100%; }
 
 .header .hero-image {
-  background-image: url("../img/hero.jpg");
+  background-image: url("../img/hero2.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
-  background-attachment: fixed; }
+  position: relative; }
 
 .header-text {
   text-align: center;
@@ -48,7 +51,7 @@ body, html {
   color: white; }
 
 .container1 {
-  background-color: blanchedalmond;
+  background-color: #F5F5F5;
   height: 100%; }
 
 /*# sourceMappingURL=styles.css.map */

@@ -32,6 +32,11 @@ body, html{
     text-decoration: none;
     font-size: 27px;
     letter-spacing: 1px;
+   
+}
+.nav a:hover{
+    background-color: #1D65A2; 
+    color:white
 }
 // nav{
 //     background-color: white;
@@ -78,13 +83,13 @@ body, html{
     height: 100%;
 }
 .header .hero-image{
-    background-image: url("../img/hero.jpg");
+    background-image: url("../img/hero2.jpg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    background-attachment: fixed;
+    // background-attachment: fixed;
 }
 
 .header-text{
@@ -95,6 +100,6 @@ body, html{
 }
 
 .container1{
-    background-color: blanchedalmond;
+    background-color: #F5F5F5;
     height:100%;
 }
