@@ -55,39 +55,42 @@ body, html {
   color: white; }
 
 .container1 {
-  height: 60vh;
-  margin-top: -21px; }
+  height: 81vh;
+  margin-top: -21px;
+  background-color: #E5E5E5; }
   .container1 .con1 {
-    text-align: center;
-    background-color: white; }
-    .container1 .con1 .sub-con1 {
-      display: grid;
-      grid-template-columns: auto auto auto auto;
-      overflow: hidden; }
-      .container1 .con1 .sub-con1 .overlay {
-        position: relative;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        width: 98%;
-        height: 131%;
-        opacity: 0;
-        transition: .5s ease;
-        background-color: rgba(0, 0, 0, 0.5); }
-      .container1 .con1 .sub-con1 img:hover .overlay {
-        opacity: 1; }
-      .container1 .con1 .sub-con1 .text {
-        color: white;
-        font-size: 20px;
-        position: relative;
-        top: 50%;
-        left: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        text-align: center; }
-      .container1 .con1 .sub-con1 img {
-        width: 40vh; }
+    text-align: center; }
+  .container1 .sub-con1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    overflow: hidden;
+    padding: 5%;
+    grid-gap: 3%; }
+    .container1 .sub-con1 .text-overlay img {
+      width: 40vh;
+      height: 40vh; }
+    .container1 .sub-con1 .overlay {
+      position: relative;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 98%;
+      height: 131%;
+      opacity: 0;
+      transition: .5s ease;
+      background-color: rgba(0, 0, 0, 0.5); }
+    .container1 .sub-con1 .text-overlay:hover .overlay {
+      opacity: 1; }
+    .container1 .sub-con1 .text {
+      color: white;
+      font-size: 20px;
+      position: relative;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center; }
 
 /*# sourceMappingURL=styles.css.map */

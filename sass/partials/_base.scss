@@ -106,16 +106,19 @@ body, html{
 
 .container1{
     
-    height:60vh;
+    height:81vh;
     margin-top: -21px;
+    background-color: #E5E5E5;
   .con1{
       text-align: center;
-      background-color: white;
-      
+    //   background-color: white;
+  }
       .sub-con1{
           display: grid;
           grid-template-columns: auto auto auto auto;
           overflow: hidden;
+          padding: 5%;
+    grid-gap: 3%;
         //   .overlay{
         //     background: rgba(0,0,0,0.7);
         //     // position: absolute;
@@ -130,6 +133,10 @@ body, html{
         //     -moz-transition: all 0.4s ease-in-out 0s;
         //     transition: all 0.4s ease-in-out 0s;
         //   }
+        .text-overlay img{
+            width: 40vh;
+            height: 40vh;
+        }
         .overlay {
             position: relative;
             top: 0;
@@ -142,7 +149,7 @@ body, html{
             transition: .5s ease;
             background-color: rgba(0, 0, 0, 0.5);
           }
-          img:hover .overlay {
+          .text-overlay:hover .overlay {
             opacity: 1;
           }
           .text {
@@ -156,12 +163,10 @@ body, html{
             transform: translate(-50%, -50%);
             text-align: center;
           }
-          img{
-              width: 40vh;
-          }
+         
       }
   }
-}
+
 // .container2{
 //     height: 50vh;
 //     background-color: #a3843c;
